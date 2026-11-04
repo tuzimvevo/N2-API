@@ -2,7 +2,7 @@ export interface Customer {
   id: number;
   name: string;
   email: string;
-  phone: string | null;
+  phone?: string | undefined;
   created_at: string;
 }
 
